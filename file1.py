@@ -10,7 +10,7 @@ file1.close()
 
 y = input('Enter additional text to append: ')
 file1 = open('output.txt','a')
-appending_file = file1.write(y+'\n')
+appending_file = file1.write(y + '\n')
 file1.close()
 print('Data successfully appended.')
 file1.close()
